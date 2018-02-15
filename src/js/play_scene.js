@@ -33,7 +33,7 @@ que tiene la sala determinada.
 var PlayScene = {};
 PlayScene.preload = function()
 {
-        this.game.load.image("FirstRoom", 'images/FirstRoom.png',50,50)
+        this.game.load.image("FirstRoom", 'images/firstRoom.png',50,50)
         this.game.load.image('UDLR', 'images/roomUDLR.png', 50, 50);
         this.game.load.image('UDL', 'images/roomUDL.png', 50, 50);
         this.game.load.image('UDR', 'images/roomUDR.png', 50, 50);
